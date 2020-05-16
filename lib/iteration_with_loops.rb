@@ -1,11 +1,15 @@
-def test#join_nested_strings (src)
+def join_nested_strings (src)
 src.flatten!
 y = src-(-1..900).to_a
-#y.join
+y.join
 y
 end
 
-
+def join_nested_strings (array)
+array.flatten!
+y = array-(-1..900).to_a
+y
+end
 
 
 
