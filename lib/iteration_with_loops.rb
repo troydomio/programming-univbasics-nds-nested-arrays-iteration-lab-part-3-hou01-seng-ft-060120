@@ -1,20 +1,20 @@
 def join_nested_strings (src)
- row_index = 0 
-  newnew = []
+ #row_index = 0 
+ # newnew = []
  
-  while row_index < src.count do
-  element_index = 0 
- while element_index < src[row_index].count do 
-     string = src[row_index]-(1..9).to_a  
- element_index += 1 
- end 
- row_index += 1 
- newnew << string
+  #while row_index < src.count do
+  #element_index = 0 
+# while element_index < src[row_index].count do 
+   #  string = src[row_index]-(1..9).to_a  
+ #element_index += 1 
+ #end 
+ #row_index += 1 
+ #newnew << string
  
- end 
- newnew.join(" ")
- end
-
+# end 
+ #newnew.join(" ")
+#end
+# -------------------------------------------------------
 
 
 
