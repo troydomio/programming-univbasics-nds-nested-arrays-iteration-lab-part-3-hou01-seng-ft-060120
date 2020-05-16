@@ -5,7 +5,7 @@ y.join
 y
 end
 
-def join_nested_strings (array)
+def test(array)
 array.flatten!
 y = array-(-1..900).to_a
 y
