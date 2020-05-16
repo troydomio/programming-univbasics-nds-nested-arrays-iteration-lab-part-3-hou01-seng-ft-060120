@@ -1,7 +1,12 @@
 def join_nested_strings (src)
-
-
+array.flatten!
+y = array-(-1..900).to_a
+y.join(" ")
+y
 end
+
+
+
 
 
 
