@@ -5,7 +5,7 @@ def join_nested_strings (src)
   while row_index < src.count do
   element_index = 0 
  while element_index < src[row_index].count do 
-   array.flatten!
+   src.flatten!
      string = src[row_index]-(1..9).to_a  
  element_index += 1 
  end 
