@@ -5,6 +5,11 @@ y.join (" ")
 y
 end
 
+da= [
+  ["The", 1, "quick"],
+  [-1, "brown", "fox", 1],
+  ["studied", 101,1, "Ruby"]
+]
 
 
 
