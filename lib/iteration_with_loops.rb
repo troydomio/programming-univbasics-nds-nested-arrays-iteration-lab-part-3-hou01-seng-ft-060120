@@ -1,10 +1,10 @@
-def test(array)
-array.flatten!
-y = array-(-1..900).to_a
+def join_nested_strings(src)
+src.flatten!
+y = src-(-1..900).to_a
 y
 end
 
-
+join_nested_strings(src).join(" ")
 
 
 
